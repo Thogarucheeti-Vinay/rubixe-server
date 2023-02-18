@@ -3,6 +3,8 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const sqlite3 = require("sqlite3").verbose();
 
+console.log("Hello world");
+
 const app = express();
 const port = 3000;
 
